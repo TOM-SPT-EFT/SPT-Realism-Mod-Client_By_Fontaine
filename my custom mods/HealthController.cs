@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BloodMod.HealthSystem
+namespace BloodMod
 {
-    public class Wound
+    public class Wound = _HealthPathcer()
     {
         public EDamageType BleedType { get; private set; }
         public string BodyPart { get; private set; }
